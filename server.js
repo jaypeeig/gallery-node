@@ -30,6 +30,6 @@ app.use('/js', static(resolveModulePath('lg-zoom') + '/dist'));
 app.use('/js', static(resolveModulePath('lg-thumbnail') + '/dist'));
 app.use('/js', static(resolveModulePath('lg-fullscreen') + '/dist'));
 
-app.listen(3000, function(){
+app.listen(80, function(){
 	console.log('server is listening at port of batangas');
 });
